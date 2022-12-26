@@ -19,7 +19,7 @@ export class App extends Component {
             <p className={css.name}>{user}</p>
             <p className={css.tweets}>{tweets}</p>
             <p className={css.followers}>{followers}</p>
-            <button className={css.car} type="button">
+            <button className={css.cardBtn} type="button">
               Follow
             </button>
           </li>
