@@ -16,10 +16,12 @@ export class App extends Component {
             <div className={css.cardPhotoWrapper}>
               <img className={css.avatar} src={avatar} alt="avatar" />
             </div>
-            <p>{user}</p>
-            <p>{tweets}</p>
-            <p>{followers}</p>
-            <button type="button">Follow</button>
+            <p className={css.name}>{user}</p>
+            <p className={css.tweets}>{tweets}</p>
+            <p className={css.followers}>{followers}</p>
+            <button className={css.car} type="button">
+              Follow
+            </button>
           </li>
         </ul>
       </section>
