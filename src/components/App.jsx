@@ -1,16 +1,17 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+import { Component } from 'react';
+import css from './App.module.css';
+
+export class App extends Component {
+  render() {
+    return (
+      <section className={css.sectionCards}>
+        <ul className={css.cardList}>
+          <li className={css.cardItem}>
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </li>
+        </ul>
+      </section>
+    );
+  }
+}
