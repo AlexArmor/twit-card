@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import users from '../data/users';
 import css from './App.module.css';
+import logo from '../images/logo.png';
+import Picture from '../images/Picture.png';
 
 export class App extends Component {
   render() {
@@ -9,14 +11,10 @@ export class App extends Component {
       <section className={css.sectionCards}>
         <ul className={css.cardList}>
           <li key={id} className={css.cardItem}>
-            <img className={css.logo} src="../images/logo.png" alt="logo" />
-            <img
-              className={css.cardDecor}
-              src="../images/Picture.png"
-              alt="decor"
-            />
+            <img className={css.logo} src={logo} alt="logo" />
+            <img className={css.cardDecor} src={Picture} alt="decor" />
             <div className={css.cardPhotoWrapper}>
-              <img src={avatar} alt="avatar" />
+              <img className={css.avatar} src={avatar} alt="avatar" />
             </div>
             <p>{user}</p>
             <p>{tweets}</p>
