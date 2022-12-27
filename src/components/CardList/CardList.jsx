@@ -3,10 +3,25 @@ import { Component } from 'react';
 import { CardItem } from '../CardItem/CardItem';
 
 export class CardList extends Component {
+  state = {
+    cardArray: this.props.users,
+  };
+
+  ToggleBtn = id => {
+    const followedUser = this.cardArray.find(user => {
+      user.id === id;
+    });
+    followedUser.isFollow = !followedUser.isFollow;
+    this.state(prevState => ({
+      cardArray: [...prevState.cardArray, followedUser],
+    }));
+  };
+
   render() {
+    console.log(this.state.cardArray);
     return (
       <ul className={css.cardList}>
-        {this.props.users.map(({ id, avatar, user, tweets, followers }) => {
+        {this.state.cardArray.map(({ id, avatar, user, tweets, followers }) => {
           return (
             <CardItem
               key={id}
@@ -14,6 +29,7 @@ export class CardList extends Component {
               user={user}
               tweets={tweets}
               followers={followers}
+              onClick={this.ToggleBtn}
             />
           );
         })}
