@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import logo from '../../images/logo.png';
 import Picture from '../../images/Picture.png';
 import css from './CardItem.module.css';
@@ -55,3 +56,11 @@ export class CardItem extends Component {
     );
   }
 }
+
+CardItem.propTypes = {
+  id: PropTypes.number.isRequired,
+  avatar: PropTypes.string.isRequired,
+  user: PropTypes.string.isRequired,
+  tweets: PropTypes.number.isRequired,
+  followers: PropTypes.number.isRequired,
+};
