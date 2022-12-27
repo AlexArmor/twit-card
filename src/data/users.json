@@ -4,48 +4,55 @@
     "user": "Elon Reeve Musk",
     "tweets": 777,
     "followers": 100500,
-    "avatar": "https://image3.thematicnews.com/uploads/topics/preview/00/13/18/59/a1e7e10710_256crop.jpg"
+    "avatar": "https://image3.thematicnews.com/uploads/topics/preview/00/13/18/59/a1e7e10710_256crop.jpg",
+    "isFollow": false
   },
   {
     "id": 2,
     "user": "Jeff Bezos",
     "tweets": 555,
     "followers": 100500,
-    "avatar": "https://news.artnet.com/app/news-upload/2017/01/GettyImages-629849300-256x256.jpg"
+    "avatar": "https://news.artnet.com/app/news-upload/2017/01/GettyImages-629849300-256x256.jpg",
+    "isFollow": false
   },
   {
     "id": 3,
     "user": "Warren Edward Buffett",
     "tweets": 123,
     "followers": 100500,
-    "avatar": "https://svetkapitala.delo.si/media/images/20210126/866127.2e16d0ba.fill-256x256.jpg"
+    "avatar": "https://svetkapitala.delo.si/media/images/20210126/866127.2e16d0ba.fill-256x256.jpg",
+    "isFollow": false
   },
   {
     "id": 4,
     "user": "Bernard Arnault",
     "tweets": 456,
     "followers": 100500,
-    "avatar": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1462164818/wgttebzg0lyvdjtdmhgn.png"
+    "avatar": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1462164818/wgttebzg0lyvdjtdmhgn.png",
+    "isFollow": false
   },
   {
     "id": 5,
     "user": "Mark Elliot Zuckerberg",
     "tweets": 7789,
     "followers": 100500,
-    "avatar": "http://www.plainsite.org/shared/photo.html?id=gmzya9&s=m"
+    "avatar": "http://www.plainsite.org/shared/photo.html?id=gmzya9&s=m",
+    "isFollow": false
   },
   {
     "id": 6,
     "user": "Bill Gates",
     "tweets": 777,
     "followers": 100500,
-    "avatar": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1448909339/owy8vzc7yerywuljcna0.jpg"
+    "avatar": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1448909339/owy8vzc7yerywuljcna0.jpg",
+    "isFollow": false
   },
   {
     "id": 7,
     "user": "Sergey Brin",
     "tweets": 777,
     "followers": 100500,
-    "avatar": "https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco,dpr_1/v1449662576/yh70eghrkjxzzktykpxx.jpg"
+    "avatar": "https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco,dpr_1/v1449662576/yh70eghrkjxzzktykpxx.jpg",
+    "isFollow": false
   }
 ]
