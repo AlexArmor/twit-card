@@ -15,13 +15,15 @@ export class CardItem extends Component {
   };
 
   componentDidMount() {
-    if (this.props.id === id)
+    const KEY = localStorage.getItem(this.props.id);
+    if (KEY) {
       this.setState({
-        isFollow: localStorage.getItem(this.props.id),
+        isFollow: JSON.parse(KEY),
       });
+    }
   }
 
-  componentDidUpdate(_, prevState) {
+  componentDidUpdate() {
     localStorage.setItem(this.props.id, this.state.isFollow);
   }
 
