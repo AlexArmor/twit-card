@@ -40,7 +40,9 @@ export class CardItem extends Component {
         <p className={css.name}>{user}</p>
         <p className={css.tweets}>{tweets}</p>
         <p className={css.followers}>
-          {this.state.isFollow ? followers + 1 : followers}
+          {this.state.isFollow
+            ? new Intl.NumberFormat('en-US').format(followers + 1)
+            : new Intl.NumberFormat('en-US').format(followers)}
         </p>
         <button
           className={this.state.isFollow ? css.cardBtnGreen : css.cardBtn}
